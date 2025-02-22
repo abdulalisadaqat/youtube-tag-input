@@ -1,0 +1,94 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: "Lucida Sans", sans-serif;
+}
+
+button {
+	border: none;
+	background: transparent;
+	cursor: pointer;
+	transition: all 0.3s;
+}
+
+button:hover {
+	filter: brightness(80%);
+}
+
+.container {
+	margin: auto;
+	padding: 0px 10px;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.card {
+	max-width: 450px;
+	height: 400px;
+	border: 1px solid #edb40a;
+	border-radius: 0.5rem;
+	display: flex;
+	flex-direction: column;
+	overflow: hidden;
+}
+
+.card-header {
+	background-color: #fde292;
+	padding: 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.card-header .copy-all,
+.card-header .delete-all {
+	font-size: 20px;
+	margin-left: 10px;
+}
+
+.card-header .copy-delete {
+	display: flex;
+}
+
+.card-body {
+	padding: 20px;
+	height: 100%;
+	overflow-y: auto;
+}
+
+.tags {
+	border: 1px solid #aaa;
+	padding: 20px;
+	border-radius: 0.5rem;
+	margin-top: 10px;
+}
+
+.tag {
+	padding: 10px 10px 10px 20px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	font-size: 20px;
+	background-color: #fde292;
+	border-radius: 2rem;
+	display: inline-block;
+}
+
+.tag .remove-tag {
+	display: inline-block;
+	background-color: #edb40a;
+	width: 1.5rem;
+	height: 1.5rem;
+	font-size: 20px;
+	border-radius: 50%;
+	margin-left: 10px;
+}
+
+.tags input {
+	padding: 10px;
+	font-size: 20px;
+	border: none;
+	outline: none;
+	background-color: transparent;
+}
