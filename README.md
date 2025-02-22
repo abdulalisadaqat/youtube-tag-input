@@ -20,7 +20,6 @@ A simple web application that helps users generate and manage tags easily.
    git clone https://github.com/abdulalisadaqat/youtube-tag-input.git
 2. Open index.html in your browser.
 
-📜 License
-This project is open-source and available for anyone to use.
+📜 License: This project is open-source and available for anyone to use.
 
 🌟 If you like this project, consider giving it a star ⭐
